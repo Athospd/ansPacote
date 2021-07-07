@@ -1,6 +1,6 @@
 Package: ansPacote
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Pacote de exemplo
+Version: 1.0.0
 Authors@R: 
     person(given = "First",
            family = "Last",
