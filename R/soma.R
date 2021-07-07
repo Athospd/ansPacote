@@ -18,3 +18,25 @@ soma <- function(a, b) {
 }
 
 
+#' Get Content
+#'
+#' Get request + content
+#'
+#' @param url (string) url para o site que queremos pegar o content
+#'
+#' @return (html_document)
+#' @export
+#'
+#' @examples
+#'
+#' get_content("http://google.com")
+#'
+get_content <- function(url) {
+  response <- httr::GET(url)
+  httr::content(response)
+}
+
+
+
+
+
