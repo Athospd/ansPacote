@@ -1,0 +1,26 @@
+---
+title: "Uso avançado do get_content"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Uso avançado do get_content}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ansPacote)
+```
+
+é assim que se usa:
+
+```{r}
+get_content("http://google.com")
+```
+

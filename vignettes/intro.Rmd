@@ -1,0 +1,34 @@
+---
+title: "Introdução ao Pacote ansPacote"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introdução ao Pacote ansPacote}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ansPacote)
+```
+
+## Fazendo uso da funcao soma
+
+```{r}
+soma(3, 10)
+```
+
+## Uso da funcao escreve
+
+A função `escreve` funciona assim:
+
+```{r}
+escreve("OK")
+```
+
