@@ -32,8 +32,7 @@ soma <- function(a, b) {
 #' get_content("http://google.com")
 #'
 get_content <- function(url) {
-  response <- httr::GET(url)
-  httr::content(response)
+  httr::GET(url) %>% httr::content()
 }
 
 
